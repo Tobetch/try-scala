@@ -90,3 +90,15 @@ Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common
 2023.07.18 18:21:02 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Timer.scala[0m
 2023.07.18 18:21:06 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Timer.scala[0m
 2023.07.18 18:21:08 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Timer.scala[0m
+2023.07.18 18:24:55 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala[0m
+2023.07.18 18:24:56 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala[0m
+2023.07.18 18:27:17 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala[0m
+2023.07.18 18:27:33 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala[0m
+2023.07.18 18:27:34 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala[0m
+7月 18, 2023 6:27:55 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1231
+2023.07.18 18:29:34 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala[0m
+2023.07.18 18:29:52 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala[0m
+2023.07.18 18:29:59 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala[0m
+2023.07.18 18:31:58 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala[0m
+2023.07.18 18:32:03 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala[0m
