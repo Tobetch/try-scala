@@ -1,0 +1,33 @@
+2023.07.18 17:47:37 INFO  Started: Metals version 0.11.12 in workspace '/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer' for client Visual Studio Code 1.80.0.[0m
+7月 18, 2023 5:47:37 午後 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+情報: Flyway Community Edition 9.16.3 by Redgate
+7月 18, 2023 5:47:37 午後 org.flywaydb.core.internal.license.VersionPrinter printVersion
+情報: See release notes here: https://rd.gt/416ObMi
+7月 18, 2023 5:47:37 午後 org.flywaydb.core.internal.license.VersionPrinter printVersion
+情報: 
+7月 18, 2023 5:47:37 午後 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+情報: Database: jdbc:h2:file:/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/.metals/metals (H2 2.1)
+7月 18, 2023 5:47:37 午後 org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+情報: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+7月 18, 2023 5:47:37 午後 org.flywaydb.core.internal.command.DbValidate validate
+情報: Successfully validated 4 migrations (execution time 00:00.013s)
+7月 18, 2023 5:47:37 午後 org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+情報: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+7月 18, 2023 5:47:37 午後 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+情報: Current version of schema "PUBLIC": << Empty Schema >>
+7月 18, 2023 5:47:37 午後 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+情報: Migrating schema "PUBLIC" to version "1 - Create tables"
+7月 18, 2023 5:47:37 午後 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+情報: Migrating schema "PUBLIC" to version "2 - Server discovery"
+7月 18, 2023 5:47:37 午後 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+情報: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+7月 18, 2023 5:47:37 午後 org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+情報: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+7月 18, 2023 5:47:37 午後 org.flywaydb.core.internal.command.DbMigrate logSummary
+情報: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.049s)
+2023.07.18 17:47:38 INFO  time: initialize in 0.5s[0m
+2023.07.18 17:47:39 WARN  Build server is not auto-connectable.[0m
+2023.07.18 17:47:39 WARN  no build tool detected in workspace '/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.07.18 17:47:39 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/HelloWorld.scala[0m
+2023.07.18 17:47:41 INFO  no build target found for /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/HelloWorld.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.07.18 17:47:42 INFO  time: code lens generation in 3.27s[0m
