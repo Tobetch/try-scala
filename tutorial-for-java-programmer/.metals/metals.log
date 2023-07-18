@@ -31,3 +31,50 @@
 2023.07.18 17:47:39 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/HelloWorld.scala[0m
 2023.07.18 17:47:41 INFO  no build target found for /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/HelloWorld.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
 2023.07.18 17:47:42 INFO  time: code lens generation in 3.27s[0m
+2023.07.18 17:56:25 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/FrenchDate.scala[0m
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.jar
+2023.07.18 17:57:56 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/FrenchDate.scala[0m
+2023.07.18 17:58:09 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/FrenchDate.scala[0m
+2023.07.18 17:58:13 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/FrenchDate.scala[0m
+2023.07.18 17:58:16 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/FrenchDate.scala[0m
+2023.07.18 17:59:11 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/FrenchDate.scala[0m
+2023.07.18 18:00:17 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/FrenchDate.scala[0m
+2023.07.18 18:02:03 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/FrenchDate.scala[0m
+2023.07.18 18:06:02 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/FrenchDate.scala[0m
+2023.07.18 18:06:21 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/FrenchDate.scala[0m
+7月 18, 2023 6:06:31 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 454
+7月 18, 2023 6:06:31 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 455
+7月 18, 2023 6:06:36 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 488
+2023.07.18 18:06:37 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/FrenchDate.scala[0m
+2023.07.18 18:06:39 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/FrenchDate.scala[0m
+2023.07.18 18:06:41 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/FrenchDate.scala[0m
