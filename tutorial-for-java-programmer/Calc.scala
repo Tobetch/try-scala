@@ -12,8 +12,8 @@ object Calc {
   // Change processing according to Tree case class
   def derive(t: Tree, v: String): Tree = t match {
     case Sum(l, r)        => Sum(derive(l, v), derive(r, v))
-    case Var(n) if v == n => Const(1)
-    case _                => Const(0)
+    case Var(n) if v == n => Const(1) // pattern matching with "guard"
+    case _                => Const(0) // "_" means wildcard
   }
 
   def main(args: Array[String]): Unit = {

@@ -933,3 +933,10 @@ org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
 2023.07.19 17:04:57 INFO  time: code lens generation in 2.06s[0m
 2023.07.19 17:04:57 INFO  time: code lens generation in 3.6s[0m
 2023.07.19 17:07:46 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/CalcExp.scala[0m
+7月 19, 2023 5:10:00 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 59
+2023.07.19 17:43:01 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 17:43:08 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 17:43:21 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 17:43:31 WARN  Using indexes to guess the definition of derive[0m
+2023.07.19 17:45:49 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
