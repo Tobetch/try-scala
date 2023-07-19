@@ -526,3 +526,369 @@ Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException:
 2023.07.19 15:01:37 INFO  no build target found for /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
 2023.07.19 15:01:38 INFO  time: code lens generation in 3.52s[0m
 2023.07.19 15:02:51 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala[0m
+2023.07.19 15:50:18 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Tree.scala[0m
+2023.07.19 15:50:21 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Tree.scala[0m
+2023.07.19 15:51:06 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Tree.scala[0m
+2023.07.19 15:51:10 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Tree.scala[0m
+2023.07.19 15:56:30 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Tree.scala[0m
+2023.07.19 15:59:08 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Tree.scala[0m
+2023.07.19 15:59:48 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/TreeExec.scala.scala[0m
+2023.07.19 15:59:50 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/TreeExec.scala.scala[0m
+2023.07.19 16:00:58 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/TreeExec.scala.scala[0m
+2023.07.19 16:01:07 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:01:10 ERROR scalafmt: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala:5: error: [dialect scala3] illegal start of simple expression
+  def eval(t: Tree, ev: Environment): Int = ...
+                                            ^[0m
+2023.07.19 16:01:10 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:01:28 ERROR scalafmt: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala:5: error: [dialect scala3] illegal start of simple expression
+  def eval(t: Tree, ev: Environment): Int = ...
+                                            ^[0m
+2023.07.19 16:01:28 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:01:29 ERROR scalafmt: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala:5: error: [dialect scala3] illegal start of simple expression
+  def eval(t: Tree, ev: Environment): Int = ...
+                                            ^[0m
+2023.07.19 16:01:29 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:01:40 WARN  Using indexes to guess the definition of Const[0m
+2023.07.19 16:01:41 WARN  Using indexes to guess the definition of Const[0m
+2023.07.19 16:01:42 ERROR scalafmt: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala:9: error: [dialect scala3] ; expected but def found
+}def derive(t: Tree, v: String): Tree = t match {
+ ^[0m
+2023.07.19 16:01:42 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:01:43 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:02:05 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+7月 19, 2023 4:02:25 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:261)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:98)
+
+2023.07.19 16:02:51 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:03:30 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Tree.scala[0m
+2023.07.19 16:04:51 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Tree.scala[0m
+7月 19, 2023 4:05:20 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 390
+2023.07.19 16:05:31 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:05:32 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:05:32 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:06:34 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:06:36 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:06:39 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:06:40 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:07:15 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:08:55 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+7月 19, 2023 4:08:55 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 517
+2023.07.19 16:10:03 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:10:10 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:11:14 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:11:22 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:11:56 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:12:01 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:12:05 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:12:09 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:12:42 WARN  Using indexes to guess the definition of Var[0m
+2023.07.19 16:14:22 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:15:15 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:15:44 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:16:00 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:16:41 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:16:45 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:17:07 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:17:19 ERROR scalafmt: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala:8: error: [dialect scala3] case expected but identifier found
+      eval(l, ev) + eval(r, ev)
+      ^[0m
+2023.07.19 16:17:19 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:17:20 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:17:23 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:33:05 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:34:21 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:34:25 WARN  Using indexes to guess the definition of Const[0m
+2023.07.19 16:34:25 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:35:31 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:37:11 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:37:20 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:39:00 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+7月 19, 2023 4:39:22 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1835
+2023.07.19 16:39:45 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:39:46 WARN  Running javac-semanticdb failed for file:///Users/tobetch/Downloads/main.java. Output:
+/Users/tobetch/Downloads/main.java:70: エラー: ')'がありません
+		Node root = new Node(data:0);
+		                         ^
+エラー1個[0m
+2023.07.19 16:39:56 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:40:04 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:40:16 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:40:23 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:40:56 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:41:04 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:41:07 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:41:16 WARN  Using indexes to guess the definition of Node[0m
+2023.07.19 16:41:45 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:41:59 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:44:18 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:44:30 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:44:59 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:45:39 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:45:43 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:46:04 WARN  Cannot tokenize Java file file:///Users/tobetch/Downloads/main.java
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:226)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:188)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:136)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:1265)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:50)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.07.19 16:46:04 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+7月 19, 2023 4:46:05 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+重大: Internal error: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+java.util.concurrent.CompletionException: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.next$1(JavaFoldingRangeExtractor.scala:102)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:149)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:157)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:48)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:43)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$3(MetalsLspService.scala:1795)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.07.19 16:46:05 WARN  Running javac-semanticdb failed for file:///Users/tobetch/Downloads/main.java. Output:
+/Users/tobetch/Downloads/main.java:57: エラー: 文字列リテラルが閉じられていません
+			System.out.println(");
+			                   ^
+エラー1個[0m
+2023.07.19 16:46:05 WARN  Cannot tokenize Java file file:///Users/tobetch/Downloads/main.java
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.$anonfun$apply$1(TokenEditDistance.scala:371)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:62)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1780)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1778)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.07.19 16:46:05 WARN  Cannot tokenize Java file file:///Users/tobetch/Downloads/main.java
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.$anonfun$apply$1(TokenEditDistance.scala:371)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.SuperMethodCodeLens.codeLenses(SuperMethodCodeLens.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1780)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1778)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.07.19 16:46:08 WARN  Cannot tokenize Java file file:///Users/tobetch/Downloads/main.java
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.$anonfun$apply$1(TokenEditDistance.scala:371)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:62)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1780)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1778)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.07.19 16:46:08 WARN  Cannot tokenize Java file file:///Users/tobetch/Downloads/main.java
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.$anonfun$apply$1(TokenEditDistance.scala:371)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.SuperMethodCodeLens.codeLenses(SuperMethodCodeLens.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1780)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1778)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.07.19 16:46:09 WARN  Cannot tokenize Java file file:///Users/tobetch/Downloads/main.java
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.$anonfun$apply$1(TokenEditDistance.scala:371)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.RunTestCodeLens.codeLenses(RunTestCodeLens.scala:62)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1780)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1778)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.07.19 16:46:09 WARN  Cannot tokenize Java file file:///Users/tobetch/Downloads/main.java
+org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1564)
+	at scala.meta.internal.parsing.JavaTokens$.loop$1(JavaTokens.scala:71)
+	at scala.meta.internal.parsing.JavaTokens$.$anonfun$tokenize$1(JavaTokens.scala:75)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.parsing.JavaTokens$.tokenize(JavaTokens.scala:35)
+	at scala.meta.internal.parsing.TokenEditDistance$.$anonfun$apply$1(TokenEditDistance.scala:371)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$.apply(TokenEditDistance.scala:370)
+	at scala.meta.internal.metals.Buffers.tokenEditDistance(Buffers.scala:30)
+	at scala.meta.internal.metals.codelenses.SuperMethodCodeLens.codeLenses(SuperMethodCodeLens.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$3(CodeLensProvider.scala:26)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.CodeLensProvider.$anonfun$findLenses$2(CodeLensProvider.scala:26)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:24)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1780)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1778)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.07.19 16:46:11 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:46:14 INFO  Shutting down server[0m
+2023.07.19 16:46:14 INFO  shutting down Metals[0m
+2023.07.19 16:46:14 INFO  Exiting server[0m
+2023.07.19 16:46:25 INFO  Started: Metals version 0.11.12 in workspace '/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer' for client Visual Studio Code 1.80.0.[0m
+7月 19, 2023 4:46:25 午後 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+情報: Flyway Community Edition 9.16.3 by Redgate
+7月 19, 2023 4:46:25 午後 org.flywaydb.core.internal.license.VersionPrinter printVersion
+情報: See release notes here: https://rd.gt/416ObMi
+7月 19, 2023 4:46:25 午後 org.flywaydb.core.internal.license.VersionPrinter printVersion
+情報: 
+7月 19, 2023 4:46:25 午後 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+情報: Database: jdbc:h2:file:/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/.metals/metals (H2 2.1)
+7月 19, 2023 4:46:26 午後 org.flywaydb.core.internal.command.DbValidate validate
+情報: Successfully validated 4 migrations (execution time 00:00.037s)
+7月 19, 2023 4:46:26 午後 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+情報: Current version of schema "PUBLIC": 4
+7月 19, 2023 4:46:26 午後 org.flywaydb.core.internal.command.DbMigrate logSummary
+情報: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.19 16:46:26 INFO  time: initialize in 0.84s[0m
+2023.07.19 16:46:28 WARN  Build server is not auto-connectable.[0m
+2023.07.19 16:46:28 WARN  no build tool detected in workspace '/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.07.19 16:46:28 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:46:28 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+7月 19, 2023 4:46:28 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 4
+7月 19, 2023 4:46:28 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 7
+2023.07.19 16:46:31 INFO  no build target found for /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.07.19 16:46:32 INFO  time: code lens generation in 4.32s[0m
+2023.07.19 16:46:32 INFO  time: code lens generation in 4.32s[0m
+2023.07.19 16:47:03 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:47:06 WARN  no build target for: /Users/tobetch/Downloads/main.java[0m
+2023.07.19 16:49:02 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.19 16:50:08 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Tree.scala[0m
+2023.07.19 16:50:14 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
