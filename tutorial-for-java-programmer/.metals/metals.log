@@ -112,3 +112,416 @@ Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common
 2023.07.18 18:35:58 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala[0m
 2023.07.18 18:36:20 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala[0m
 2023.07.18 18:36:38 WARN  Using indexes to guess the definition of Complex[0m
+2023.07.19 14:50:48 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala[0m
+2023.07.19 14:51:06 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala[0m
+2023.07.19 14:52:56 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala[0m
+2023.07.19 14:53:03 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala[0m
+2023.07.19 14:55:21 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala[0m
+2023.07.19 14:56:43 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala[0m
+2023.07.19 14:56:49 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala[0m
+7月 19, 2023 2:56:49 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+重大: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:469)
+	at scala.meta.internal.metals.MetalsLspService.executeCommand(MetalsLspService.scala:2031)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.07.19 14:56:56 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala[0m
+7月 19, 2023 2:56:56 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+重大: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:469)
+	at scala.meta.internal.metals.MetalsLspService.executeCommand(MetalsLspService.scala:2031)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+7月 19, 2023 2:57:12 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTrace
+2023.07.19 14:57:15 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala[0m
+7月 19, 2023 2:57:15 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+重大: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:469)
+	at scala.meta.internal.metals.MetalsLspService.executeCommand(MetalsLspService.scala:2031)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+7月 19, 2023 2:57:22 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTrace
+2023.07.19 14:57:45 INFO  Running List(/Users/tobetch/Library/Application Support/Coursier/bin/scala-cli, bsp, /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer)[0m
+2023.07.19 14:57:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/.metals/bsp.trace.json or /Users/tobetch/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Starting compilation server[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.6-sc-8/bloop-frontend_2.12-1.5.6-sc-8.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.6-sc-8/bloop-frontend_2.12-1.5.6-sc-8.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.6-sc-8/bloop-backend_2.12-1.5.6-sc-8.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.0.7/scala-debug-adapter_2.12-3.0.7.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.6-sc-8/bloop-backend_2.12-1.5.6-sc-8.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.0.7/scala-debug-adapter_2.12-3.0.7.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.6/logback-parent-1.4.6.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.6/logback-parent-1.4.6.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.6-sc-8/bloop-shared_2.12-1.5.6-sc-8.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.15.0/brave-5.15.0.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.8.2/test-agent-1.8.2.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.pom[0m
+2023.07.19 14:57:45 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.8.2/test-agent-1.8.2.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5/asm-util-9.5.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.15.0/brave-5.15.0.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.15/zt-zip-1.15.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.6-sc-8/bloop-shared_2.12-1.5.6-sc-8.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+12/com-microsoft-java-debug-core-0.34.0+12.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5/asm-util-9.5.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.8.0/librarymanagement-ivy_2.12-1.8.0.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+12/com-microsoft-java-debug-core-0.34.0+12.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.15/zt-zip-1.15.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.8.0/librarymanagement-ivy_2.12-1.8.0.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.4/slf4j-parent-2.0.4.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave-parent/5.15.0/brave-parent-5.15.0.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.4/slf4j-parent-2.0.4.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave-parent/5.15.0/brave-parent-5.15.0.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.8.0/zinc_2.12-1.8.0.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.8.0/librarymanagement-core_2.12-1.8.0.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.8.0/zinc_2.12-1.8.0.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.8.0/librarymanagement-core_2.12-1.8.0.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.20.0/log4j-2.20.0.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.20.0/log4j-2.20.0.pom[0m
+2023.07.19 14:57:46 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/apache/logging/logging-parent/7/logging-parent-7.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/apache/logging/logging-parent/7/logging-parent-7.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/apache/apache/27/apache-27.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/apache/apache/27/apache-27.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-bom/9.4.50.v20221201/jetty-bom-9.4.50.v20221201.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/jakarta/platform/jakarta.jakartaee-bom/9.0.0/jakarta.jakartaee-bom-9.0.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/fabric8/kubernetes-client-bom/5.12.2/kubernetes-client-bom-5.12.2.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/netty/netty-bom/4.1.86.Final/netty-bom-4.1.86.Final.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.14.1/jackson-bom-2.14.1.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-bom/2.20.0/log4j-bom-2.20.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/netty/netty-bom/4.1.86.Final/netty-bom-4.1.86.Final.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/codehaus/groovy/groovy-bom/3.0.14/groovy-bom-3.0.14.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-bom/9.4.50.v20221201/jetty-bom-9.4.50.v20221201.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/jakarta/platform/jakarta.jakartaee-bom/9.0.0/jakarta.jakartaee-bom-9.0.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/springframework/spring-framework-bom/5.3.24/spring-framework-bom-5.3.24.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/fabric8/kubernetes-client-bom/5.12.2/kubernetes-client-bom-5.12.2.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.14.1/jackson-bom-2.14.1.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/springframework/spring-framework-bom/5.3.24/spring-framework-bom-5.3.24.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/codehaus/groovy/groovy-bom/3.0.14/groovy-bom-3.0.14.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-bom/2.20.0/log4j-bom-2.20.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/jakarta/platform/jakartaee-api-parent/9.0.0/jakartaee-api-parent-9.0.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/jakarta/platform/jakartaee-api-parent/9.0.0/jakartaee-api-parent-9.0.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.8.0/util-logging_2.12-1.8.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.8.0/util-position_2.12-1.8.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.8.0/zinc-core_2.12-1.8.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.8.0/util-cache_2.12-1.8.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.8.0/zinc-persist_2.12-1.8.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.8.0/util-logging_2.12-1.8.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.8.0/io_2.12-1.8.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.8.0/zinc-core_2.12-1.8.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.8.0/util-position_2.12-1.8.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.8.0/zinc-compile-core_2.12-1.8.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.8.0/util-cache_2.12-1.8.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.8.0/zinc-classfile_2.12-1.8.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.8.0/zinc-classfile_2.12-1.8.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.8.0/io_2.12-1.8.0.pom[0m
+2023.07.19 14:57:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.8.0/zinc-compile-core_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.8.0/zinc-persist_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.8.0/zinc-persist-core-assembly-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.8.0/zinc-classpath_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.8.0/util-relation_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.8.0/util-control_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.8.0/util-interface-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.8.0/core-macros_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.8.0/zinc-classpath_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.8.0/zinc-apiinfo_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.8.0/zinc-persist-core-assembly-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.8.0/compiler-interface-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.8.0/util-interface-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.8.0/util-control_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.8.0/collections_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.8.0/util-relation_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.8.0/compiler-interface-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.8.0/collections_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.8.0/zinc-apiinfo_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.8.0/core-macros_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.8.0/compiler-bridge_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.8.0/compiler-bridge_2.12-1.8.0.pom[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.8.0/util-interface-1.8.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.8.0/librarymanagement-ivy_2.12-1.8.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.8.0/core-macros_2.12-1.8.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.8.0/zinc-core_2.12-1.8.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.8.0/util-logging_2.12-1.8.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.8.0/util-interface-1.8.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.8.0/util-cache_2.12-1.8.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.8.0/compiler-bridge_2.12-1.8.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.8.0/core-macros_2.12-1.8.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.8.0/compiler-interface-1.8.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.8.0/zinc-core_2.12-1.8.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.8.0/compiler-interface-1.8.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.8.0/util-relation_2.12-1.8.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.8.0/compiler-bridge_2.12-1.8.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.8.0/util-logging_2.12-1.8.0.jar[0m
+2023.07.19 14:57:48 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.8.0/zinc-persist-core-assembly-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.8.0/util-relation_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.15/zt-zip-1.15.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.0.7/scala-debug-adapter_2.12-3.0.7.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.8.0/util-cache_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.8.0/util-control_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.8.0/util-control_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.15/zt-zip-1.15.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.8.0/collections_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.8.0/librarymanagement-ivy_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.8.0/zinc-apiinfo_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.0.7/scala-debug-adapter_2.12-3.0.7.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.8.0/zinc-classpath_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.8.0/zinc-persist-core-assembly-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.8.0/zinc-compile-core_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.8.0/zinc-apiinfo_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.8.0/util-position_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.8.0/collections_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.15.0/brave-5.15.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.8.0/zinc-classpath_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.6-sc-8/bloop-frontend_2.12-1.5.6-sc-8.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.8.0/zinc-compile-core_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.8.0/util-position_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.8.2/test-agent-1.8.2.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.15.0/brave-5.15.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+12/com-microsoft-java-debug-core-0.34.0+12.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.8.0/librarymanagement-core_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.8.2/test-agent-1.8.2.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.6-sc-8/bloop-shared_2.12-1.5.6-sc-8.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+12/com-microsoft-java-debug-core-0.34.0+12.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.8.0/zinc-persist_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.6-sc-8/bloop-frontend_2.12-1.5.6-sc-8.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.8.0/librarymanagement-core_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.8.0/zinc_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.6-sc-8/bloop-shared_2.12-1.5.6-sc-8.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.8.0/zinc-persist_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.8.0/io_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.8.0/zinc_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.8.0/zinc-classfile_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.6-sc-8/bloop-backend_2.12-1.5.6-sc-8.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.8.0/zinc-classfile_2.12-1.8.0.jar[0m
+2023.07.19 14:57:49 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.8.0/io_2.12-1.8.0.jar[0m
+2023.07.19 14:57:50 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.6-sc-8/bloop-backend_2.12-1.5.6-sc-8.jar[0m
+2023.07.19 14:57:50 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar[0m
+2023.07.19 14:57:50 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.jar[0m
+2023.07.19 14:57:52 INFO  Scala CLI: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.07.19 14:57:52 INFO  Scala CLI: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.07.19 14:57:52 INFO  Scala CLI: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.07.19 14:57:52 INFO  Scala CLI: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.07.19 14:57:52 INFO  Scala CLI: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.07.19 14:57:52 INFO  Scala CLI: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.07.19 14:57:52 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.07.19 14:57:52 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.07.19 14:57:52 INFO  Scala CLI: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.07.19 14:57:52 INFO  Scala CLI: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.07.19 14:57:52 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.07.19 14:57:52 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.07.19 14:57:52 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom[0m
+2023.07.19 14:57:52 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom[0m
+2023.07.19 14:57:52 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar[0m
+2023.07.19 14:57:55 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar[0m
+2023.07.19 14:57:55 INFO  Connected to Scala CLI server v1.0.2[0m
+2023.07.19 14:57:56 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (5 scala sources)[0m
+2023.07.19 14:57:58 INFO  Required scalafmt dialect rewrite to 'scala3'. Directories:
+- HelloWorld.scala
+- Complex.scala
+- Timer.scala
+- FrenchDate.scala
+- ComplexNumbers.scala[0m
+2023.07.19 14:58:00 INFO  time: indexed workspace in 1.45s[0m
+2023.07.19 14:58:01 INFO  Scala CLI started[0m
+2023.07.19 14:59:26 INFO  Shutting down server[0m
+2023.07.19 14:59:26 INFO  shutting down Metals[0m
+2023.07.19 14:59:26 INFO  Shut down connection with build server.[0m
+2023.07.19 14:59:26 INFO  Exiting server[0m
+2023.07.19 14:59:36 INFO  Started: Metals version 0.11.12 in workspace '/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer' for client Visual Studio Code 1.80.0.[0m
+7月 19, 2023 2:59:36 午後 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+情報: Flyway Community Edition 9.16.3 by Redgate
+7月 19, 2023 2:59:36 午後 org.flywaydb.core.internal.license.VersionPrinter printVersion
+情報: See release notes here: https://rd.gt/416ObMi
+7月 19, 2023 2:59:36 午後 org.flywaydb.core.internal.license.VersionPrinter printVersion
+情報: 
+7月 19, 2023 2:59:36 午後 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+情報: Database: jdbc:h2:file:/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/.metals/metals (H2 2.1)
+7月 19, 2023 2:59:36 午後 org.flywaydb.core.internal.command.DbValidate validate
+情報: Successfully validated 4 migrations (execution time 00:00.020s)
+7月 19, 2023 2:59:36 午後 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+情報: Current version of schema "PUBLIC": 4
+7月 19, 2023 2:59:36 午後 org.flywaydb.core.internal.command.DbMigrate logSummary
+情報: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.19 14:59:36 INFO  time: initialize in 0.51s[0m
+2023.07.19 14:59:38 WARN  Build server is not auto-connectable.[0m
+2023.07.19 14:59:38 WARN  no build tool detected in workspace '/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.07.19 14:59:38 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala[0m
+2023.07.19 14:59:40 INFO  no build target found for /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.07.19 14:59:41 INFO  time: code lens generation in 3.34s[0m
+2023.07.19 14:59:41 INFO  time: code lens generation in 3.34s[0m
+2023.07.19 15:00:51 INFO  Shutting down server[0m
+2023.07.19 15:00:51 INFO  shutting down Metals[0m
+2023.07.19 15:00:51 INFO  Exiting server[0m
+2023.07.19 15:00:59 INFO  Started: Metals version 0.11.12 in workspace '/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer' for client Visual Studio Code 1.80.0.[0m
+7月 19, 2023 3:00:59 午後 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+情報: Flyway Community Edition 9.16.3 by Redgate
+7月 19, 2023 3:00:59 午後 org.flywaydb.core.internal.license.VersionPrinter printVersion
+情報: See release notes here: https://rd.gt/416ObMi
+7月 19, 2023 3:00:59 午後 org.flywaydb.core.internal.license.VersionPrinter printVersion
+情報: 
+7月 19, 2023 3:00:59 午後 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+情報: Database: jdbc:h2:file:/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/.metals/metals (H2 2.1)
+7月 19, 2023 3:00:59 午後 org.flywaydb.core.internal.command.DbValidate validate
+情報: Successfully validated 4 migrations (execution time 00:00.016s)
+7月 19, 2023 3:00:59 午後 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+情報: Current version of schema "PUBLIC": 4
+7月 19, 2023 3:00:59 午後 org.flywaydb.core.internal.command.DbMigrate logSummary
+情報: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.19 15:00:59 INFO  time: initialize in 0.47s[0m
+2023.07.19 15:01:01 WARN  Build server is not auto-connectable.[0m
+2023.07.19 15:01:01 WARN  no build tool detected in workspace '/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.07.19 15:01:01 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala[0m
+2023.07.19 15:01:04 INFO  no build target found for /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.07.19 15:01:05 INFO  time: code lens generation in 4.36s[0m
+2023.07.19 15:01:26 INFO  Shutting down server[0m
+2023.07.19 15:01:26 INFO  shutting down Metals[0m
+2023.07.19 15:01:26 INFO  Exiting server[0m
+2023.07.19 15:01:33 INFO  Started: Metals version 0.11.12 in workspace '/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer' for client Visual Studio Code 1.80.0.[0m
+7月 19, 2023 3:01:33 午後 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+情報: Flyway Community Edition 9.16.3 by Redgate
+7月 19, 2023 3:01:33 午後 org.flywaydb.core.internal.license.VersionPrinter printVersion
+情報: See release notes here: https://rd.gt/416ObMi
+7月 19, 2023 3:01:33 午後 org.flywaydb.core.internal.license.VersionPrinter printVersion
+情報: 
+7月 19, 2023 3:01:33 午後 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+情報: Database: jdbc:h2:file:/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/.metals/metals (H2 2.1)
+7月 19, 2023 3:01:33 午後 org.flywaydb.core.internal.command.DbValidate validate
+情報: Successfully validated 4 migrations (execution time 00:00.016s)
+7月 19, 2023 3:01:33 午後 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+情報: Current version of schema "PUBLIC": 4
+7月 19, 2023 3:01:33 午後 org.flywaydb.core.internal.command.DbMigrate logSummary
+情報: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.19 15:01:34 INFO  time: initialize in 0.5s[0m
+2023.07.19 15:01:35 WARN  Build server is not auto-connectable.[0m
+2023.07.19 15:01:35 WARN  no build tool detected in workspace '/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.07.19 15:01:35 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala[0m
+2023.07.19 15:01:37 INFO  no build target found for /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.07.19 15:01:38 INFO  time: code lens generation in 3.52s[0m
