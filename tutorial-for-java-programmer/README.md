@@ -16,7 +16,8 @@ Tutorial for java programmer
 
 ## Versions
 
-- Scala2
+- Java: 17.0.2
+- Scala: 2
 
 ## Run Class File
 
