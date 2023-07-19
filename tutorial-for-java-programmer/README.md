@@ -26,3 +26,4 @@ Tutorial for java programmer
 3. `scalac Timer.scala;scala -classpath . Timer`
 4. `scalac Complex.scala ComplexNumbers.scala;scala -classpath . ComplexNumbers`
 5. `scalac Tree.scala Calc.scala;scala -classpath . Calc`
+   1. `scalac CalcExp.scala;scala -classpath . CalcExp`
