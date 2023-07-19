@@ -20,4 +20,7 @@ Tutorial for java programmer
 
 ## Run Class File
 
-`scala -classpath . [Class Name]`
+1. `scalac HelloWorld.scala;scala -classpath . HelloWorld`
+2. `scalac FrenchDate.scala;scala -classpath . FrenchDate`
+3. `scalac Timer.scala;scala -classpath . Timer`
+4. `scalac Complex.scala ComplexNumbers.scala;scala -classpath . ComplexNumbers`

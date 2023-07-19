@@ -525,3 +525,4 @@ Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException:
 2023.07.19 15:01:35 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala[0m
 2023.07.19 15:01:37 INFO  no build target found for /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/ComplexNumbers.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
 2023.07.19 15:01:38 INFO  time: code lens generation in 3.52s[0m
+2023.07.19 15:02:51 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala[0m
