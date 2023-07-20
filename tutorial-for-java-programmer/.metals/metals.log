@@ -1406,3 +1406,96 @@ java.nio.file.NoSuchFileException: /Users/tobetch/git/try/try-scala/tutorial-for
 2023.07.20 14:13:46 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.1s
 2023.07.20 14:14:31 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
 2023.07.20 14:14:31 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.12s
+2023.07.20 14:16:56 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 14:16:56 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.11s
+2023.07.20 14:16:57 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (2 scala sources)
+2023.07.20 14:16:57 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.1s
+2023.07.20 14:17:35 INFO  Disconnecting from scala-cli session...
+2023.07.20 14:17:35 INFO  Shut down connection with build server.
+2023.07.20 14:17:35 INFO  Attempting to connect to the build server...
+2023.07.20 14:17:35 INFO  Cancelling compilation on scala-cli server
+2023.07.20 14:17:35 INFO  Running BSP server List(/Users/tobetch/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/.scala-build/ide-options-v2.json, /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer)
+2023.07.20 14:17:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/.metals/bsp.trace.json or /Users/tobetch/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.07.20 14:17:35 INFO  time: Connected to build server in 0.68s
+2023.07.20 14:17:35 INFO  Connected to Build server: scala-cli v1.0.2
+2023.07.20 14:17:37 INFO  time: indexed workspace in 0.95s
+2023.07.20 14:17:38 INFO  Refreshed build after change
+7月 20, 2023 2:18:47 午後 scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+警告: Error indexing /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala
+java.nio.file.NoSuchFileException: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:378)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:256)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:189)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:189)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:201)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:189)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:141)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:141)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:110)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:43)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:201)
+	at scala.meta.internal.pc.HoverProvider$.$anonfun$1(HoverProvider.scala:126)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:126)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:325)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:132)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+7月 20, 2023 2:18:47 午後 scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+警告: Error indexing /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala
+java.nio.file.NoSuchFileException: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Complex.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:378)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:256)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:272)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:189)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:189)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:201)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:189)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:141)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:141)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:110)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:43)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:201)
+	at scala.meta.internal.pc.HoverProvider$.$anonfun$1(HoverProvider.scala:126)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:126)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:325)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:132)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
