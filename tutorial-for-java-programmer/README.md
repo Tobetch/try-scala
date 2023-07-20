@@ -27,3 +27,4 @@ Tutorial for java programmer
 4. `scalac Complex.scala ComplexNumbers.scala;scala -classpath . ComplexNumbers`
 5. `scalac Tree.scala Calc.scala;scala -classpath . Calc`
    1. `scalac CalcExp.scala;scala -classpath . CalcExp`
+6. `scalac Date.scala Trait.scala;scala -classpath . Trait`

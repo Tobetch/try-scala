@@ -940,3 +940,231 @@ org.eclipse.jdt.core.compiler.InvalidInputException: Invalid_Char_In_String
 2023.07.19 17:43:21 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
 2023.07.19 17:43:31 WARN  Using indexes to guess the definition of derive[0m
 2023.07.19 17:45:49 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Calc.scala[0m
+2023.07.20 13:03:48 INFO  Started: Metals version 0.11.12 in workspace '/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer' for client Visual Studio Code 1.80.0.[0m
+7月 20, 2023 1:03:48 午後 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+情報: Flyway Community Edition 9.16.3 by Redgate
+7月 20, 2023 1:03:48 午後 org.flywaydb.core.internal.license.VersionPrinter printVersion
+情報: See release notes here: https://rd.gt/416ObMi
+7月 20, 2023 1:03:48 午後 org.flywaydb.core.internal.license.VersionPrinter printVersion
+情報: 
+7月 20, 2023 1:03:48 午後 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+情報: Database: jdbc:h2:file:/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/.metals/metals (H2 2.1)
+7月 20, 2023 1:03:48 午後 org.flywaydb.core.internal.command.DbValidate validate
+情報: Successfully validated 4 migrations (execution time 00:00.018s)
+7月 20, 2023 1:03:48 午後 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+情報: Current version of schema "PUBLIC": 4
+7月 20, 2023 1:03:48 午後 org.flywaydb.core.internal.command.DbMigrate logSummary
+情報: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.20 13:03:48 INFO  time: initialize in 0.48s[0m
+2023.07.20 13:03:50 WARN  Build server is not auto-connectable.[0m
+2023.07.20 13:03:50 WARN  no build tool detected in workspace '/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.07.20 13:03:50 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Date.scala[0m
+2023.07.20 13:03:50 WARN  no build target for: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Trait.scala[0m
+2023.07.20 13:03:53 INFO  no build target found for /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Date.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.07.20 13:03:55 INFO  time: code lens generation in 1.23s[0m
+2023.07.20 13:03:55 INFO  time: code lens generation in 1.23s[0m
+2023.07.20 13:04:23 INFO  Shutting down server[0m
+2023.07.20 13:04:23 INFO  shutting down Metals[0m
+2023.07.20 13:04:23 INFO  Exiting server[0m
+2023.07.20 13:04:56 INFO  Started: Metals version 1.0.0 in folders '/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer' for client Visual Studio Code 1.80.1.
+7月 20, 2023 1:04:56 午後 org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+情報: Flyway Community Edition 9.20.1 by Redgate
+7月 20, 2023 1:04:56 午後 org.flywaydb.core.internal.license.VersionPrinter printVersion
+情報: See release notes here: https://rd.gt/416ObMi
+7月 20, 2023 1:04:56 午後 org.flywaydb.core.internal.license.VersionPrinter printVersion
+情報: 
+7月 20, 2023 1:04:56 午後 org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+情報: Database: jdbc:h2:file:/Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/.metals/metals (H2 2.1)
+7月 20, 2023 1:04:56 午後 org.flywaydb.core.internal.command.DbValidate validate
+情報: Successfully validated 4 migrations (execution time 00:00.014s)
+7月 20, 2023 1:04:56 午後 org.flywaydb.core.internal.command.DbMigrate migrateGroup
+情報: Current version of schema "PUBLIC": 4
+7月 20, 2023 1:04:56 午後 org.flywaydb.core.internal.command.DbMigrate logSummary
+情報: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.20 13:04:56 INFO  time: initialize in 0.45s
+7月 20, 2023 1:04:58 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 3
+7月 20, 2023 1:04:58 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1
+2023.07.20 13:04:59 INFO  Running List(/Users/tobetch/Library/Application Support/Coursier/bin/scala-cli, setup-ide, /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer)
+2023.07.20 13:04:59 INFO  Attempting to connect to the build server...
+2023.07.20 13:04:59 INFO  Running BSP server List(/Users/tobetch/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/.scala-build/ide-options-v2.json, /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer)
+2023.07.20 13:04:59 WARN  No build session currently active to reload.
+2023.07.20 13:04:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/.metals/bsp.trace.json or /Users/tobetch/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.07.20 13:04:59 INFO  time: Connected to build server in 0.55s
+2023.07.20 13:04:59 INFO  Connected to Build server: scala-cli v1.0.2
+2023.07.20 13:04:59 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (10 scala sources)
+2023.07.20 13:05:00 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (10 scala sources)
+2023.07.20 13:05:01 INFO  no build target found for /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Date.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.07.20 13:05:01 INFO  time: code lens generation in 3.33s
+2023.07.20 13:05:02 INFO  time: indexed workspace in 1.19s
+2023.07.20 13:05:02 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (10 scala sources)
+2023.07.20 13:05:03 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 1.09s
+2023.07.20 13:05:03 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (10 scala sources)
+2023.07.20 13:05:03 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.21s
+2023.07.20 13:05:03 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (10 scala sources)
+2023.07.20 13:05:03 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.19s
+2023.07.20 13:21:47 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (10 scala sources)
+2023.07.20 13:21:47 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.26s
+2023.07.20 13:21:51 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (10 scala sources)
+2023.07.20 13:21:51 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.21s
+7月 20, 2023 1:21:53 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+警告: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didChange",
+  "params": {
+    "textDocument": {
+      "version": 4,
+      "uri": "file:///Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Trait.scala"
+    },
+    "contentChanges": [
+      {
+        "text": "object Trait {\n  def main(args: Array[String]): Unit \u003d {\n    val now \u003d new Date(2023, 7, 19)\n    val future \u003d new Date(2045, 7, 19)\n    println(now)\n    println(now.toString())\n    println(now.equals(future))\n  }\n}\n"
+      }
+    ]
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..215]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:48)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:42)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:80)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:39)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:49)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$1(TokenEditDistance.scala:246)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:165)
+	at scala.meta.internal.metals.Diagnostics.toFreshDiagnostic(Diagnostics.scala:266)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$3(Diagnostics.scala:232)
+	at scala.meta.internal.metals.Diagnostics.$anonfun$publishDiagnostics$3$adapted(Diagnostics.scala:231)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:231)
+	at scala.meta.internal.metals.Diagnostics.publishDiagnostics(Diagnostics.scala:188)
+	at scala.meta.internal.metals.Diagnostics.didChange(Diagnostics.scala:136)
+	at scala.meta.internal.metals.MetalsLspService.didChange(MetalsLspService.scala:1114)
+	at scala.meta.internal.metals.WorkspaceLspService.didChange(WorkspaceLspService.scala:326)
+	at scala.meta.metals.lsp.DelegatingScalaService.didChange(DelegatingScalaService.scala:50)
+	... 16 more
+
+2023.07.20 13:21:53 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (10 scala sources)
+2023.07.20 13:21:53 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.39s
+2023.07.20 13:22:08 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (10 scala sources)
+2023.07.20 13:22:08 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.11s
+2023.07.20 13:22:21 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (10 scala sources)
+2023.07.20 13:22:21 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.55s
+2023.07.20 13:23:25 WARN  Using indexes to guess the definition of Any
+2023.07.20 13:23:26 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (10 scala sources)
+2023.07.20 13:23:26 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.65s
+2023.07.20 13:24:00 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (10 scala sources)
+2023.07.20 13:24:00 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.27s
+2023.07.20 13:24:07 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (10 scala sources)
+2023.07.20 13:24:07 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.7s
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.20 13:25:43 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:25:43 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.18s
+2023.07.20 13:25:54 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:25:54 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.13s
+2023.07.20 13:25:56 WARN  Could not load snapshot text for /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Date.scala
+2023.07.20 13:25:56 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:25:56 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.13s
+2023.07.20 13:27:07 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:27:07 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.13s
+2023.07.20 13:27:15 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:27:15 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 83ms
+2023.07.20 13:27:21 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:27:21 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 71ms
+2023.07.20 13:27:41 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:27:41 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.11s
+7月 20, 2023 1:28:12 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 656
+2023.07.20 13:28:13 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:28:13 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 57ms
+2023.07.20 13:28:26 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:28:26 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.11s
+2023.07.20 13:28:43 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:28:43 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 55ms
+2023.07.20 13:28:52 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:28:52 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.27s
+2023.07.20 13:29:12 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:29:12 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.12s
+2023.07.20 13:29:17 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:29:17 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.1s
+2023.07.20 13:29:31 WARN  Could not load snapshot text for /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Trait.scala
+2023.07.20 13:29:31 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:29:31 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 92ms
+2023.07.20 13:30:08 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:30:08 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.11s
+2023.07.20 13:30:14 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:30:14 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 98ms
+7月 20, 2023 1:31:59 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1009
+2023.07.20 13:33:43 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:33:43 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.12s
+2023.07.20 13:34:12 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:34:12 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.1s
+2023.07.20 13:34:15 ERROR scalafmt: /Users/tobetch/git/try/try-scala/tutorial-for-java-programmer/Date.scala:20: error: [dialect scala3] identifier expected but override found
+  override def equals(that: Any): Boolean =
+  ^
+2023.07.20 13:34:15 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:34:15 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 51ms
+2023.07.20 13:34:17 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:34:17 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.1s
+2023.07.20 13:34:22 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:34:22 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.1s
+2023.07.20 13:34:25 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:34:25 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 96ms
+2023.07.20 13:35:01 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:35:01 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.11s
+2023.07.20 13:35:15 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:35:15 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 89ms
+2023.07.20 13:35:49 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:35:49 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.1s
+2023.07.20 13:36:02 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:36:02 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 95ms
+2023.07.20 13:37:13 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:37:13 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 52ms
+2023.07.20 13:37:37 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:37:37 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.25s
+7月 20, 2023 1:37:52 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1541
+2023.07.20 13:38:04 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:38:04 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.11s
+2023.07.20 13:39:09 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:39:09 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 66ms
+2023.07.20 13:40:16 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:40:16 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 0.11s
+2023.07.20 13:40:38 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:40:38 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 92ms
+2023.07.20 13:40:55 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:40:55 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 91ms
+2023.07.20 13:40:56 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:40:56 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 92ms
+2023.07.20 13:41:09 INFO  compiling tutorial-for-java-programmer_bd2c96d2de (1 scala source)
+2023.07.20 13:41:09 INFO  time: compiled tutorial-for-java-programmer_bd2c96d2de in 87ms
